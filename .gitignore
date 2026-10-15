@@ -1,0 +1,52 @@
+# Local credentials and environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Editor and operating-system metadata
+.idea/
+.vscode/
+.DS_Store
+._*
+
+# Downloaded models and generated transcription data
+/assets/
+/output/
+*_asr/
+**/chunks/
+**/results/
+manifest.json
+segments.json
+vad_probabilities.npy
+audio.ready
+transcript*.txt
+*.log
+*.tmp
+
+# Source media and extracted audio
+*.mp4
+*.m4v
+*.mkv
+*.mov
+*.avi
+*.webm
+*.wav
+*.mp3
+*.m4a
+*.aac
+*.flac
+*.ogg
+*.opus
+*.wma
+*.aiff
+*.aif

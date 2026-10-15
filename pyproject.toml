@@ -1,0 +1,6 @@
+[project]
+name = "omlx-asr"
+version = "0.1.0"
+description = "Local oMLX ASR with Silero ONNX voice activity detection"
+requires-python = ">=3.12,<3.13"
+dependencies = ["numpy>=2,<3", "onnxruntime>=1.20,<2", "python-dotenv>=1,<2"]
